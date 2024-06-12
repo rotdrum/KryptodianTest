@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-background {
+  min-height: 100vh; /* Minimum height to cover the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, #FCA5F1, #9F7AEA); /* Replace with your colors */
+}
